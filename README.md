@@ -1,0 +1,2 @@
+# lazytool
+lazy tool
