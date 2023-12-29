@@ -41,7 +41,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "lazytool"
+rootProject.name = "lazy-tool"
 include(":app")
 include(":lib-tool")
 
