@@ -1,3 +1,5 @@
+import android.databinding.tool.writer.ViewBinding
+
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
@@ -32,8 +34,10 @@ android {
     }
     buildFeatures {
         viewBinding = true
-        dataBinding = true
     }
+//    dataBinding {
+//         true
+//    }
 }
 
 dependencies {
