@@ -12,7 +12,7 @@ import com.lazyian.tool.databinding.ItemFooterViewBinding
  * Email: yixin0212@qq.com
  * Function : 为RecyclerView添加头部和底部
  */
-abstract class HeaderFooterAdapter<T>(override var data: MutableList<T>) : BaseAdapter<T>(data) {
+    abstract class HeaderFooterAdapter<T>(override var data: MutableList<T>) : BaseAdapter<T>(data) {
     var isCanLoadMore = false
     var isFooterShow = false
 
