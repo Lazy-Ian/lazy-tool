@@ -3,7 +3,6 @@ import android.databinding.tool.writer.ViewBinding
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
-    id("com.github.dcendents.android-maven")
 }
 
 android {
