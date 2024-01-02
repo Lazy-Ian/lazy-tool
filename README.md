@@ -1,8 +1,18 @@
 # lazytool
 
 lazy tool
-引用
-implementation("com.github.Lazy-Ian:lazy-tool:v1.0.0")
+
+加入你的库的依赖配置，例如：
+在你项目的build.gradle文件中添加jitpack的仓库
+allprojects {
+repositories {
+...
+maven { url = uri("https://www.jitpack.io") }
+}
+}
+
+然后在你要使用的模块中添加如下依赖：
+implementation("com.github.Lazy-Ian:lazy-tool:1.0.0")
 
 当前包含
 标准的baseAdapter 抽象数据基类
