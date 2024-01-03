@@ -5,6 +5,8 @@ import androidx.annotation.IntRange
 import androidx.annotation.NonNull
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewbinding.ViewBinding
+import com.lazyian.tool.base.adapter.holder.BaseViewHolder
+import com.lazyian.tool.base.adapter.listener.OnItemClickListener
 
 /**
  * Created by Ian on 2023/11/29

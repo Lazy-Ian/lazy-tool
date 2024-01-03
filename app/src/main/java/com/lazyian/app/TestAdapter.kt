@@ -4,7 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import com.lazyian.app.databinding.ItemBaseBindBinding
 import com.lazyian.tool.base.adapter.BaseBindAdapter
-import com.lazyian.tool.base.adapter.BaseViewHolder
+import com.lazyian.tool.base.adapter.holder.BaseViewHolder
 
 /**
  * Created by Ian on 2023/12/28

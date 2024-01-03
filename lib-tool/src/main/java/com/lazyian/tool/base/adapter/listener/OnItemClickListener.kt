@@ -1,4 +1,4 @@
-package com.lazyian.tool.base.adapter
+package com.lazyian.tool.base.adapter.listener
 
 import android.view.View
 

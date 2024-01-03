@@ -5,6 +5,7 @@ import android.view.ViewGroup
 import androidx.annotation.NonNull
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.lazyian.tool.base.adapter.holder.BaseViewHolder
 import com.lazyian.tool.databinding.ItemFooterViewBinding
 
 /**

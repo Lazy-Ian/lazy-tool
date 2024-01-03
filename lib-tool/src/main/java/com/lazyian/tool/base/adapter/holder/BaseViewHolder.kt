@@ -1,4 +1,4 @@
-package com.lazyian.tool.base.adapter
+package com.lazyian.tool.base.adapter.holder
 
 import android.content.Context
 import androidx.recyclerview.widget.RecyclerView

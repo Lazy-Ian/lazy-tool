@@ -3,6 +3,7 @@ package com.lazyian.tool.base.adapter
 import androidx.annotation.IntRange
 import androidx.annotation.NonNull
 import androidx.recyclerview.widget.RecyclerView
+import com.lazyian.tool.base.adapter.listener.OnItemClickListener
 
 /**
  * Created by Ian on 2023/12/20
