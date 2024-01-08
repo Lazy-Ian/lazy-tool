@@ -9,10 +9,10 @@ version = "1.0"
 
 android {
     namespace = "com.lazyian.tool"
-    compileSdk = 34
+    compileSdk = 33
 
     defaultConfig {
-        minSdk = 24
+        minSdk = 23
 //        versionCode = 1
 //        versionName = "1.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
@@ -50,43 +50,9 @@ dependencies {
     implementation("com.google.android.material:material:1.8.0")
     implementation("androidx.lifecycle:lifecycle-process:2.6.2")
     implementation("androidx.databinding:databinding-runtime:8.2.0")
+    implementation(platform("org.jetbrains.kotlin:kotlin-bom:1.8.10"))
+
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 }
-
-//afterEvaluate
-//afterEvaluate {
-//    publishing {
-//        publications {
-//            // Creates a Maven publication called "release".
-//            maven(MavenPublication) {
-//                from components.release
-//                        groupId = "com.github.jitpack"
-//                artifactId = "android-example"
-//                version = "1.0"
-//            }
-//        }
-//    }
-//}
-
-//
-//tasks.withType(JavaCompile) {
-//    options.fork = true
-//}
-//
-//
-//publishing {
-//    publications {
-//        maven(MavenPublication) {
-//            //artifact "build\\outputs\\aar\\glide-debug.aar"
-//            from components.java
-//                    //println components.properties
-//                    //from components.wtf
-//                    groupId "org.appxmod.lucene"
-//            artifactId "Core"
-//            version "1.0.0"
-//        }
-//    }
-//}
-//build.finalizedBy publishToMavenLocal
